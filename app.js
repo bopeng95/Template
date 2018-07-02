@@ -12,4 +12,4 @@ app.get('/', (req, res) => {
 	res.render('home')
 });
 
-app.listen(PORT);
+app.listen(PORT, () => console.log('Server on port ' + PORT));
